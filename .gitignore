@@ -1,104 +1,32 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+import time
+import random
 
-# C extensions
-*.so
+#game function
+def game():
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+print("~.~.~.~.~.~.~.")
+print("Welcome to Bob and Tarzan")
+print("~.~.~.~.~.~.~.")
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+time.sleep(3)
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+print(Bob and Tarzan's friend Joe died. Now you have to figure out who did it. Are you ready?")
+ch1 = str(input(Do you want to start?[y/n:"))
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# celery beat schedule file
-celerybeat-schedule
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
+#LEVEL ONE
+if ch1 in['y','Y','yes','Yes','YES']:
+print("Bob and Tarzan arrive to figure out what happened. They enter Joe's house and look through out the room. As you search the room, you find a phone and a notepad. Press P for phone or N for notepad.")
+if ch2 in ['p','P','Phone','phone','PHONE']
+print("While searching the phone you see an interesting text conversation. Would you like to search th conversation or move and look for moves?")
+else:
+if ch2['n','N','notepad''Notepad','NOTEPAD']
+print("You are looking through the notepad. You see some nice and cool drawings, but then you see a note. Do you wish to read it or continue looking? Press R to read or C to continue.")
+if ch3 in['R','r','read','Read','READ']
+print ("You start to read the note. Then you notice some of the letters are underlined. Do you want to unscramble the note or put the notepad down? Press U to unscramble or P to put down.")
+if ch4 in['u','U','Unscramble','unscramble','UNSCRAMBLE']
+print ("the letters thst are underlined are o,i,t,k,m,s,o,s,r,t,i,e,e,e,e,y,o,l,i,m,n,g,!. Unscramble the letters and figure out what it says.")
+if ch5 in['Someone is trying to kill me!']
+print("Congrats, you have solved the puzzle!")
+print("Joe's parents Mike and Mary enter the room and kick you out, but they sound nervous")
+print("Bob and Tarzan start getting suspicious. They go back to Bob's house after unscrambling the message. THey start thinking of suspects. The first suspects are Joes's parents Mike and Mary. The next suspect is their friend Chuck, he always hated Joe, he must have had a motive.")
+print("you go to Chuck's house")
